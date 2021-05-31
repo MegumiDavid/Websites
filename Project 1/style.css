@@ -1,0 +1,26 @@
+body {
+    background-color: #2F3035;
+}
+
+.container {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 118px;
+    background-color: aqua;
+}
+nav {
+    height: 40px;
+    background-color: pink;
+}
+main {
+    height: 400px;
+    background-color: orange;
+}
+footer {
+    height: 100px;
+    background-color: palegreen;
+}
