@@ -1,5 +1,5 @@
 html {
-    height: 100%;
+    /* height: 100%; */
     background-image: linear-gradient(#FC5E55 ,#FA4083);
 }
 
@@ -36,8 +36,17 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
 }
 
+.navbutton {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    border:1px solid white ;
+    padding: 11px 25px;
+    color: white;
+}
 
 
 
@@ -54,10 +63,28 @@ main {
     margin-right: 100px;
 }
 
+.mybutton {
+    text-decoration: none;
+    color: #FB467B;
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px; /*top,bottom / right,left*/
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 2x;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.250);
+}
+
+.mybutton:hover {
+    background-color:#54b962fa ;
+    transition: 0.5s;
+}
+
 h1 {
     font-size: 3.25rem;
     font-family: 'Playfair Display', serif;
     padding-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.250);
 }
 
 p {
@@ -88,10 +115,15 @@ h2 {
     text-align: center;
 }
 
+.card1, .card2, .card3 {
+    padding: 30px 30px 20px 30px;
+    box-sizing: border-box;
+}
+
 .cards p {
     font-size: 0.85rem;
     line-height: 1.2rem;
-    margin: 10px 30px 20px 30px;
+    margin-top: 10px /*30px 20px 30px*/;
 }
 
 .card1 {
@@ -100,6 +132,7 @@ h2 {
     background-position: bottom;
     min-height: 300px;
     width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
 }
 .card2 {
     background-image: url(image-background-card2.jpg);
@@ -107,6 +140,7 @@ h2 {
     background-position: bottom;
     min-height: 250px;
     width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
 }
 .card3 {
     background-image: url(image-background-card3.jpg);
@@ -114,14 +148,35 @@ h2 {
     background-position: bottom;
     min-height: 300px;
     width: 30%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
 }
 
 .cards i {
     font-size: 100px;
-    padding-top: 30px;
+    /* padding-top: 30px */;
 }
 
 .cards a {
     color: white;
     text-decoration: none;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left:30px;
 }
