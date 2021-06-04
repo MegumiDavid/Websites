@@ -57,6 +57,39 @@ main {
     align-items: center;
 }
 
+
+/*contact us page*/
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+}
+.inputwrapper {
+    margin-bottom: 30px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    font-size: 0.85rem;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 50px;
+}
+
+form {
+    margin: 40px 0px;
+}
+
+/*contact us page end*/
+
+
 .herobox1 {
     flex:2;
     /*padding-right: 100px;*/
@@ -72,7 +105,7 @@ main {
     display: inline-block;
     margin-top: 20px;
     border-radius: 2x;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.250);
+    /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.250); */
 }
 
 .mybutton:hover {
@@ -164,7 +197,7 @@ h2 {
 .testimonials {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
@@ -173,7 +206,7 @@ h2 {
     padding: 50px;
     border: 1px solid white;
     box-sizing: border-box;
-    margin-top: 50px;
+    margin-top: 65px;
 }
 
 .tbox p:last-of-type {
