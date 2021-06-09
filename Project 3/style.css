@@ -1,6 +1,6 @@
 /* ~ Global view - desktop ~ */
 .container {
-    background-color:white;
+    background-color:rgb(18, 116, 75);
     max-width: 1024px;
     min-height: 500px;
     margin: 0 auto;
@@ -17,12 +17,19 @@ h1 {
 }
 
 .col {
-    background-color: black;
     width: 30%;
-    min-height: 200px;
+    /* min-height: 200px; */
     margin-bottom: 40px;
 }
 
+.col img {
+    width: 100%;
+    height: auto;
+}
+
+.hide-desktop-only {
+    display: none;
+}
 
 
 /* ~ Tablet view ~*/
@@ -30,11 +37,19 @@ h1 {
     .col {
         width: 45%;
     }
+
+    .hide-tablet-only {
+        display: block;
+    }
 }
 
 /* ~ Mobile view ~ */
 @media (max-width:600px) {
     .col {
         width: 100%;
+    }
+
+    .hide-mobile {
+        display: none;
     }
 }
