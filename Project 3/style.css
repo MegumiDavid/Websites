@@ -1,0 +1,21 @@
+/* ~ Global view - desktop ~ */
+h1 {
+    color: limegreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ~ Tablet view ~*/
+@media (max-width:768px) {
+    h1 {
+        color: darkorange;
+    }
+}
+
+
+/* ~ Mobile view ~ */
+@media (max-width:400px) {
+    h1 {
+        color:darkred
+    }
+}
