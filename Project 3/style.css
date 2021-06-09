@@ -1,6 +1,50 @@
 /* ~ Global view - desktop ~ */
+body {
+    font-family: 'Asap', sans-serif;
+    color:white
+}
+
+.header-container {
+    background-color: #484848;
+    min-height: 100px;
+    margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
+    
+}
+
+header {
+    max-width: 1024px;
+    margin: 0 auto;
+    min-height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.highlight {
+    font-weight: 700;
+    color:#23CC97;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a {
+    margin-left: 25px;
+}
+
+.mybutton {
+    border: white solid 1.25px;
+    padding: 10px 25px;
+}
+
 .container {
-    background-color:rgb(18, 116, 75);
+    padding-top: 150px;
     max-width: 1024px;
     min-height: 500px;
     margin: 0 auto;
@@ -9,14 +53,14 @@
     justify-content: space-between;
 }
 
-h1 {
+/* h1 {
     font-family: serif;
-    color: floralwhite;
     font-size: 25px;
     padding: 25px 0px 0px 25px;
-}
+} */
 
 .col {
+    background-color:#23CC97;
     width: 30%;
     /* min-height: 200px; */
     margin-bottom: 40px;
@@ -25,6 +69,17 @@ h1 {
 .col img {
     width: 100%;
     height: auto;
+}
+
+.col p {
+    font-size: 0.825rem;
+    padding: 20px 25px;
+    line-height: 1.25rem;
+
+}
+
+.col p::first-line {
+    font-weight: bold;
 }
 
 .hide-desktop-only {
@@ -41,6 +96,29 @@ h1 {
     .hide-tablet-only {
         display: block;
     }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    .header-container {
+        position: relative;
+    }
+
+    .logo {
+        padding: 40px 0px;
+    }
+    nav a {
+        display: block;
+        margin: 0px auto;
+    }
+
+    .container {
+        padding-top: 40px;
+        margin: 0 auto;
+        
+    }
 }
 
 /* ~ Mobile view ~ */
@@ -52,4 +130,27 @@ h1 {
     .hide-mobile {
         display: none;
     }
+
+  /*   header {
+        display: block;
+        text-align: center;
+    }
+
+    .header-container {
+        position: relative;
+    }
+
+    .logo {
+        padding: 40px 0px;
+    }
+    nav a {
+        display: block;
+        margin: 0px auto;
+    }
+
+    .container {
+        padding-top: 40px;
+        margin: 0 auto;
+        
+    } */
 }
