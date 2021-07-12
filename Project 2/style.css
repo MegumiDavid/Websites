@@ -109,7 +109,8 @@ form {
 }
 
 .mybutton:hover {
-    background-color:#54b962fa ;
+    background-color: #ffffff8c ;
+    color:#FB467B;
     transition: 0.5s;
 }
 
