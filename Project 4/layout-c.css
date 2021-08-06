@@ -1,0 +1,38 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+.mybox1 {
+    background-color:lightgreen;
+    min-height: 200px;
+    margin: 28px 10px; 
+    padding: 28px;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+ .mybox1 {
+    background-color:lightblue;
+}   
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+ .mybox1 {
+    background-color:orangered;
+}   
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ .mybox1 {
+    background-color:tomato;
+}   
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+ .mybox1 {
+    background-color:cyan;
+}   
+ }

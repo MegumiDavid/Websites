@@ -1,0 +1,5 @@
+/* @media(max-width:750px){ */
+    .mobile-view {
+        display: none;
+    }
+/* }    */
