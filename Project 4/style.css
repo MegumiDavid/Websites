@@ -4,6 +4,11 @@ body {
     background-image: linear-gradient(to bottom right,#00F490, #00BBC9);
 }
 
+.bg-light {
+    background-color: #2f435600!important;
+}
+
+
 .jumbotron h1 {
    font-family: 'Abril Fatface', cursive;
 }
@@ -22,9 +27,13 @@ body {
 }
 
 .btn btn-outline-light {
-    border-style: 1px solid white;
+    border-style:  rgba(255, 255, 255, 0.404);
 }
 
 .btn btn-outline-light:hover{
     background-color: rgba(255, 255, 255, 0.349);
+}
+
+.card-group {
+    justify-content: space-between;
 }
