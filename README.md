@@ -12,4 +12,3 @@
 
 ### Project 4
 - Yogurt - a website for yogurt company
-- Using bootstrap
