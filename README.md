@@ -12,4 +12,9 @@
 
 ### Project 4
 - Yogurt - a website for yogurt company
-- Using bootstrap
+
+### Project 5
+- Tindog - a website for dogs in love
+
+### Project 6
+- Drum - a website where you can play a drum
