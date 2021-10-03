@@ -15,3 +15,6 @@
 
 ### Project 5
 - Tindog - a website for dogs in love
+
+### Project 6
+- Drum - a website where you can play a drum
