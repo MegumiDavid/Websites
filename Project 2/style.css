@@ -20,6 +20,10 @@ body {
     margin-right: auto;
 }
 
+header, main, .main2,.cards, .testimonials{
+    padding: 0px 60px;
+}
+
 header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -93,6 +97,7 @@ form {
     padding: 11px 25px; /*top,bottom / right,left*/
     display: inline-block;
     margin-top: 20px;
+    margin-bottom: 50px;
     border-radius: 2x;
     /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.250); */
 }
@@ -183,7 +188,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+    padding-bottom: 100px;
 }
 
 .tbox {
@@ -197,4 +202,27 @@ h2 {
 .tbox p:last-of-type {
     font-size: 0.8rem;
     padding-left:30px;
+}
+
+
+@media (max-width: 768px) { 
+    body {
+        background-image: none;
+    }
+}
+
+@media (max-width: 568px) { 
+    body {
+        background-image: none;
+    }
+    main{
+        flex-direction: column;
+    }
+    .herobox2{
+        display: none;
+    }
+    .tbox{
+        min-width: 100%;
+
+    }
 }
