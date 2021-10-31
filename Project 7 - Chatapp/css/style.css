@@ -290,6 +290,14 @@ p{
     background-color: rgba(89, 96, 102, 0.5); 
 }
 
+.margim-zero{
+    margin:0px;
+}
+
+.margim-seven{
+    margin-left: 36px;
+}
+
 .flexwrap{
     flex-wrap: wrap;
 }
