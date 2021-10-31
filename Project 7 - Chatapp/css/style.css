@@ -406,7 +406,11 @@ p{
     .hero-img{
         margin-left: 5vw;
         min-width: 390px;
-        overflow-x: hidden;
+        overflow: hidden;
+    }
+
+    .overflow-hidden{
+        overflow: hidden;
     }
 
     #hero-img{
@@ -416,6 +420,9 @@ p{
         padding-top: 18px;
     }
 
+    .margim-seven{
+        margin:0px;
+    }
     .btn{
         display: block;
         margin-bottom: 25px;
