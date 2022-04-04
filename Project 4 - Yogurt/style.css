@@ -19,6 +19,7 @@ body {
 
 .jumbotron {
     background-color: rgba(255, 255, 255, 0);
+    padding: 8rem 0;
 }
 
 .lead {
@@ -36,4 +37,15 @@ body {
 
 .card-group {
     justify-content: space-between;
+}
+
+.btn-outline-primary{
+    border-color: white;
+    color: white;
+}
+
+.btn-outline-primary:hover{
+    color: black;
+    background-color: white;
+
 }
